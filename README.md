@@ -2,9 +2,15 @@
 
 A simple, extensible grid using `display: flex;`. Used in [furtive.css](http://furtive.co).
 
+<http://caniuse.com/#search=flex>
+
 ## Installation
 
-Using [rework-npm](https://github.com/reworkcss/rework-npm):
+It's recommended to use [rework-npm](https://github.com/reworkcss/rework-npm):
+
+```
+npm install --save furtive-grid
+```
 
 ```javascript
 var rework = require('rework'),
@@ -12,12 +18,6 @@ var rework = require('rework'),
 
 var output = rework('@import "furtive-grid";', { source: 'my-file.css' })
     .use(reworkNPM());
-```
-
-Or, through npm the old-fashioned way:
-
-```
-npm install --save furtive-grid
 ```
 
 ## Usage
