@@ -4,7 +4,7 @@
   padding-right: 1rem;
 }
 
-.grd .row {
+.grd-row {
   max-width: 100%;
   box-sizing: border-box;
   display: flex;
